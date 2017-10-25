@@ -7,7 +7,7 @@ function OnButtonClick() {
 }
 
 
-addMessage(message) {
+function addMessage(message) {
 	var ul = document.getElementById("messages");
 	var li = document.createElement("li");
 	li.appendChild(document.createTextNode(message));
